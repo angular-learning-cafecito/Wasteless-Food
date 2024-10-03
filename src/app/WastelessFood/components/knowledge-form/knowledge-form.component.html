@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <form (submit)="onSubmit()" #knowledgeForm="ngForm" class="knowledge-form-container">
+    <mat-form-field appearance="fill" class="input-form" >
+      <label>Title</label>
+      <input matInput placeholder="Knowledge Title" name="knowledgeTitle" [(ngModel)]="knowledge.title" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="input-form">
+      <label>Summary</label>
+      <input matInput placeholder="Knowledge Summary" name="knowledgeSummary" [(ngModel)]="knowledge.summary" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="input-form">
+      <label>Content</label>
+      <input matInput placeholder="Knowledge Content" name="knowledgeContent" [(ngModel)]="knowledge.content" required>
+    </mat-form-field>
+    <div class="actions">
+      <button [disabled]="knowledgeForm.invalid" mat-button>Add</button>
+      <button (click)="onCancel()" mat-button>Cancel</button>
+    </div>
+
+  </form>
+</div>
+<!--title, urlToImage, summary, content. -->

@@ -1,0 +1,60 @@
+{
+  "knowledge": [
+    {
+      "id": 1,
+      "title": "Introduction to Angular",
+      "urlToImage": "https://example.com/angular-intro.png",
+      "summary": "This is a beginner's guide to Angular framework.",
+      "content": "Angular is a platform for building mobile and desktop web applications...",
+      "apiId": "v1"
+    },
+    {
+      "id": 2,
+      "title": "Getting started with Docker",
+      "urlToImage": "https://example.com/docker.png",
+      "summary": "Learn how to use Docker containers for application development.",
+      "content": "Docker containers wrap up software and its dependencies in a lightweight, portable environment...",
+      "apiId": "v1"
+    },
+    {
+      "id": 3,
+      "title": "Understanding REST APIs",
+      "urlToImage": "https://example.com/rest-api.png",
+      "summary": "An overview of how REST APIs work and why they are useful.",
+      "content": "REST is an architectural style that defines a set of constraints to be used for creating web services...",
+      "apiId": "v1"
+    },
+    {
+      "id": 4,
+      "title": "Knowledge2",
+      "urlToImage": "",
+      "summary": "HOLA COMO ESTAN",
+      "content": "HOLA COMO ESTANHOLA COMO ESTANHOLA COMO ESTANHOLA COMO ESTANHOLA COMO ESTAN",
+      "apiId": "v1"
+    },
+    {
+      "id": 5,
+      "title": "Knowledge2",
+      "urlToImage": "",
+      "summary": "HOLA COMO ESTAN",
+      "content": "dasasdasdasdsadasd",
+      "apiId": "v1"
+    },
+    {
+      "id": 6,
+      "title": "prueba 1",
+      "urlToImage": "",
+      "summary": "prueba 2",
+      "content": "prueba 3",
+      "apiId": "v1"
+    },
+    {
+      "id": 7,
+      "title": "ASDASDSDAASDASDASDASD",
+      "urlToImage": "",
+      "summary": "DASASDASDASDDAS",
+      "content": "ASDASDASDADSDASAS",
+      "apiId": "v1"
+    }
+  ]
+}
